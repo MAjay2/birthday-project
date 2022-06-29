@@ -56,7 +56,7 @@ img{
 
 
 .img-gif{
-    background-image: url(images/unsplash.jpg);
+    background-image: url(unsplash.jpg);
     width: 400px;
     height: 400px;
     background-size: cover;
@@ -72,21 +72,21 @@ img{
 }
 
 .img-gif:hover{
-    background-image: url(gifs/giphy.gif);
+    background-image: url(giphy.gif);
 
 }
 
 
 
 #img-gif-badass:hover{
-background-image: url(gifs/giphy-3.gif);
+background-image: url(giphy-3.gif);
 
 
 }
 
 
 #img-gif-sweet:hover{
-    background-image: url(gifs/pokemon.gif);
+    background-image: url(pokemon.gif);
 
 
 }
@@ -96,6 +96,6 @@ background-image: url(gifs/giphy-3.gif);
 }
 
 #img-gif-cheers:hover{
-    background-image:url(gifs/cheers.gif);
+    background-image:url(cheers.gif);
 }
 
