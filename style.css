@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background:linear-gradient(white, red);
+    
+    color: whitesmoke;
+    text-shadow: 0 0 3px;
+    
+
+
+}
+h1{
+    text-shadow: 0 0 20px;
+    color: pink;
+}
+
+img{
+    width: 200px;
+    border-radius: 40px;
+    border: solid plum 5px;
+
+}
+
+.birth-items{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.date{
+    padding: 10px 15px;
+    background-color: red;
+    border-radius: 8px;
+
+}
+
+.quote{
+    padding: 10px 15px;
+    background-color: blueviolet;
+    border: 2px solid white;
+
+    
+}
+
+.wish{
+    padding: 10px  15px;
+    background-color:red;
+    border-radius: 8px;
+    
+
+}
+
+
+.img-gif{
+    background-image: url(images/unsplash.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 8px solid white;
+    border-radius: 6px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-gif:hover{
+    background-image: url(gifs/giphy.gif);
+
+}
+
+
+
+#img-gif-badass:hover{
+background-image: url(gifs/giphy-3.gif);
+
+
+}
+
+
+#img-gif-sweet:hover{
+    background-image: url(gifs/pokemon.gif);
+
+
+}
+
+#img-gif-cheers{
+    height: 200px;
+}
+
+#img-gif-cheers:hover{
+    background-image:url(gifs/cheers.gif);
+}
+
